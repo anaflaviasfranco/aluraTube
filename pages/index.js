@@ -1,6 +1,5 @@
 import React from "react";
 import config from "../config.json"
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import Header from "../src/components/Header"
 import { StyledTimeline } from "../src/components/Timeline";
@@ -16,7 +15,6 @@ function HomePage() {
 
     return (
         <>
-            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
